@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;x
+
+}
+/* header section*/
+.header{
+    height: 70px;
+    width: 100%;
+    font-family: monospace;
+    background-color: gray;
+}
+.logo{
+    height: 70px;
+    width: 25%;
+    background-color: yellow;
+    margin-left: 10%;
+    font-family: serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 45px;
+    text-align: center;
+    
+}
+.nav{
+    display: inline-block;
+    float: right;
+
+}
+
+
+/*banner section*/
+.banner{
+    height: 600px;
+    background-image: url(/img/men1.jpg);
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-position-y: -500px;
+    /*background-position-x: 100px;*/
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 10px;
+    margin-top: 100px;
+
+}
+.banner_details{
+    width: 30%;
+    /*background-color: white;*/
+    margin-left: 60px;
+    margin-top: 50px;
+    padding: 20px;
+    display: inline-block;
+    font-family: monospace;
+
+}
+.banner_details>p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.button{
+    width: 20%;
+    margin-top: 2px;
+    margin-left: 80px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    cursor: pointer;
+}
+/*main section*/
+
+.fact{
+    margin-top: 400px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    
+}
+.fact>h1{
+    font-family: serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    width: 80%;
+    /*background-color: red;*/
+    margin-left: 10%;
+    margin-top: 20px ;
+    font-size: 0px;
+}
+.feel{
+    width: 25%;
+    background-color: yellow;
+    display: inline-block ;
+    font-size: 16px;
+    margin-left: calc(25%/4);
+    margin-top: 20px;
+}
+.sad_img{
+    width: 100%;
+    /*background-color: blue;*/
+}
+.sad_img>img{
+    width: 100%;
+
+}
+.details{
+    padding: 30px;
+    font-family: serif;
+}
+.details>h1{
+    font-size: 100px;
+    font-weight: bold;
+
+}
+.details>p{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/*about*/
+
+.about{
+    width: 100%;
+    background-color: yellow;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.about>h1{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-family: serif;
+}
+.about>p{
+    margin-top: 40px;
+    padding: 30px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: serif;
+}
+.footer{
+    background-color: lightgrey;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer>h2{
+    height: 20px;
+}
+.footer_img{
+    padding-left: 1100px;
+}
